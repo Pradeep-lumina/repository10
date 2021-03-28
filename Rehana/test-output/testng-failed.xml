@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="core_Java_1.Sample1">
+        <methods>
+          <include name="testA"/>
+        </methods>
+      </class> <!-- core_Java_1.Sample1 -->
+      <class name="core_Java_1.Sample6">
+        <methods>
+          <include name="testC"/>
+        </methods>
+      </class> <!-- core_Java_1.Sample6 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

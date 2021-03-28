@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="core_Java_1.Sample1"/>
+      <class name="core_Java_1.Sample2"/>
+      <class name="core_Java_1.Sample3"/>
+      <class name="core_Java_1.Sample4"/>
+      <class name="core_Java_1.Sample5"/>
+      <class name="core_Java_1.Sample6"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
